@@ -1,2 +1,54 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:content-box;
+    cursor: alias;
+}
+.container{
+    background-color: aqua;
+    width: 50%;
+    min-width: 25%;
+    height: 25%;
+    min-height: 13%;
+    /* Margin */
+    margin:1px;
+    /* Padding */
+    padding:8px;
+    /* Overflow */
+    overflow: hidden;
+    /* Borders */
+    /* border-color:aquamarine; */
+    /* border-width: 2.5px; */
+    /* border-style:groove;  */
+    /* Border Shorthand Property */
+    /* border: 2.5px groove aquamarine; */
+    border-left: 3px groove aquamarine;
+    border-right: 3px dashed beige;
+    border-top: 3px dotted bisque;
+    border-bottom: 3px double blanchedalmond;
+    /* Margin and Padding shorthand property */
+    /* Top Right Bottom Left */
+    /* Top/Bottom Right/Left */
+    /* All sides */
+    visibility: visible;
+    border-radius: 8px;
+}
+.avatar{
+    width: 71px;
+    height: 71px;
+    background-color:blueviolet;
+    border-radius: 50%;
+}
+.listofitems{
+    list-style-type: armenian;
+}
+.cell{
+    border: 1px ridge cadetblue;
+    padding: 1px;
+    border-radius: 3px;
+    text-align: center;
+}
+.table-row{
+    margin: 1px;
+    background-color:burlywood;
+}
